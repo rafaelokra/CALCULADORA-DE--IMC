@@ -12,6 +12,10 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    <div class="alert-error">
+        Digite somente numeros
+    </div>
+
     <div class="container">
 
         <main class="card" >
@@ -27,7 +31,7 @@
 
                 </div>
                 <div class="input-wrapper">
-                    <label for="height">Altura (m)</label>
+                    <label for="height">Altura (cm)</label>
                     <input 
                         id="height"
                         type="text" 
@@ -41,5 +45,19 @@
 
     </div>
 
+            <div class="modal-wrapper ">
+        
+            <div class="modal card">
+                <h2 class="title">
+                    <button class="close" >
+                        <img src="close.svg/close.svg" alt="">
+
+                    </button>
+
+                    <span>Seu IMC é de  28</span>
+                </h2>
+            </div>
+        
+    </div>
 </body>
 </html>
